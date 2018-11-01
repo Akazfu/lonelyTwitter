@@ -47,6 +47,7 @@ public class LonelyTwitterActivity extends Activity {
 		saveButton.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
+
 				setResult(RESULT_OK);
 				String text = bodyText.getText().toString();
 
